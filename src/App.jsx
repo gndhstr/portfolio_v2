@@ -13,7 +13,7 @@ function App() {
   return (
     <>
     <GradientBackground>
-      <div className="relative z-10 min-h-screen">
+      <div className="relative z-10 min-h-screen mb-10">
         <Welcome/>
         <About/>
         <Education/>
