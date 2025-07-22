@@ -1,6 +1,6 @@
 import React from 'react'
 import TiltedCard from '../../components/ui/cardt/cardt'
-import { FaLinkedin, FaDownload, FaCode, FaCertificate, FaBriefcase} from "react-icons/fa";
+import { FaLinkedin, FaExternalLinkAlt, FaCode, FaCertificate, FaBriefcase} from "react-icons/fa";
 import Typing from '../../components/ui/typing/typing';
 import SpotlightCard from '../../components/ui/componentCard/componentCard';
 import profileImg from '../../assets/profilepic.png';
@@ -9,11 +9,11 @@ import profileImg from '../../assets/profilepic.png';
 const About = () => {
 
   const typingSequence = [
-    'Frontend Developer',
+    'IT Enthusiast',
     1500,
-    'React Enthusiast',
+    'FullStack Developer',
     1500,
-    'UI Designer',
+    'Graphic Designer',
     2000,
   ];
 
@@ -28,15 +28,16 @@ const About = () => {
             Passionate about programming and design, with 3+ years of hands-on web development experience. Quick to adapt, strong in teamwork, and thrive under pressure.
             </p>
             <div className="flex gap-4 mt-4">
-                <a
-                href="/cv-gandhi.pdf"
-                download
-                className="flex items-center gap-2 px-4 py-2 text-white rounded-lg bg-gradient-to-r from-purple-900 via-purple-700 to-indigo-600 hover:opacity-65 transition"
-                >
-                <FaDownload />
-                Download CV
-                </a>
-                <a href="https://www.linkedin.com/in/namalinkedinmu/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-4 py-2 border border-purple-700 text-purple-700 rounded hover:bg-purple-700 hover:text-white transition" >
+            <a
+              href="/cv-gandhi.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 px-4 py-2 text-white rounded-lg bg-gradient-to-r from-purple-900 via-purple-700 to-indigo-600 hover:opacity-65 transition"
+            >
+              <FaExternalLinkAlt/>
+              Lihat CV
+            </a>
+                <a href="https://www.linkedin.com/in/gndhstr/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-4 py-2 border border-purple-700 text-purple-700 rounded hover:bg-purple-700 hover:text-white transition" >
                     <FaLinkedin />
                 </a>
             </div>
@@ -70,7 +71,7 @@ const About = () => {
           >
             <FaCertificate className="text-4xl text-white" />
             <div>
-              <h3 className="text-2xl font-bold mb-1">5</h3>
+              <h3 className="text-2xl font-bold mb-1">10</h3>
               <p className="text-sm opacity-80">Certificates Earned</p>
             </div>
           </SpotlightCard>

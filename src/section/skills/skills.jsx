@@ -41,7 +41,7 @@ const Skills = () => {
   
   return (
     <div className='container'>
-        <h1 className='text-3xl font-bold text-center mt-10'><span className='text-purple-700'>What</span> i use ?</h1>
+        <h1 className='text-3xl font-bold text-center mt-10 '><span className='text-purple-700'>What</span> i use ?</h1>
         <div className='flex-row lg:flex'>
           <div>
               <h2>Develop</h2>
@@ -75,7 +75,7 @@ const Skills = () => {
               </div>
           </div>
           <div
-            className="rounded-xl p-0 m-0 flex justify-center items-center h-full"
+            className="rounded-xl p-0 m-0 hidden md:flex justify-center items-center h-full"
             style={{
               background: 'radial-gradient(circle, rgba(168, 85, 247, 0.15) 0%, rgba(255,255,255,0) 50%)',
             }}

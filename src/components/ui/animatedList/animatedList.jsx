@@ -115,7 +115,7 @@ const AnimatedList = ({
       <div
         ref={listRef}
         onScroll={handleScroll}
-        className="max-h-[350px] mt-2 mb-10 overflow-y-auto pt-4 pr-6 scrollbar-hide"
+        className="max-h-[400px] md:max-h-[350px] mt-2 mb-10 overflow-y-auto pt-4 pr-6 scrollbar-hide"
         style={{ scrollbarWidth: "none" }}
       >
         {items.map((item, index) => (

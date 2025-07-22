@@ -28,7 +28,7 @@ function Welcome() {
               />
               <TrueFocus
                 sentence="Full-Stack Programmer | Graphic Designer"
-                borderColor="blue"
+                borderColor="#6b21a8"
                 glowColor="rgba(0, 0, 255, 0.6)"
                 blurAmount={2}
               />

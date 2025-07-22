@@ -6,7 +6,9 @@ const ProjectNcertificate = () => {
   return (
     <div className='mt-10'>
         <h1 className='container text-2xl font-bold text-purple-600'>Certificate</h1>
-        <Certificate/>
+        <div className='container'>
+          <Certificate/>
+        </div>
     </div>
   )
 }
